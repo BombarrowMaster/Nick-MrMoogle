@@ -1,5 +1,5 @@
-<c:set var="pagename" scope="session" value="${pageContext.request.servletPath}" />
-<c:out value="${pagename}" />
+<c:set var="pageName" value="${pageContext.request.servletPath}.toString()" />
+<c:out value="${pageName}" />
 
 
 <div id="header-wrapper">
