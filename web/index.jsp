@@ -1,9 +1,6 @@
-<c:set var="pageName">
-index.jsp
-</c:set>
-
 <jsp:include page="./header.jsp" />
 <body>
+<c:set var="pageName" value="index.jsp" />
 <jsp:include page="./titlebar.jsp" />
 <div id="page-wrapper">
 	<div id="page" class="container">
