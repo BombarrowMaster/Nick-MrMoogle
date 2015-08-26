@@ -1,13 +1,11 @@
-<c:set var="pageName" value="${pageContext.request.servletPath}" />
+<c:set var="homeClass" value=""></c:set>
+<c:set var="announceClass" value=""></c:set>
+<c:set var="blogClass" value=""></c:set>
+<c:set var="projectClass" value=""></c:set>
+<c:set var="forumClass" value=""></c:set>
+<c:set var="contactClass" value=""></c:set>
 
-<c:set var="homeClass" value="" />
-<c:set var="announceClass" value="" />
-<c:set var="blogClass" value="" />
-<c:set var="projectClass" value="" />
-<c:set var="forumClass" value="" />
-<c:set var="contactClass" value="" />
-
-<c:if test="${pageName == '/index.jsp'}">
+<c:if test="${pageName == 'index.jsp'}">
 	<c:set var="homeClass" value="class='current_page_item'" />
 </c:if>
 

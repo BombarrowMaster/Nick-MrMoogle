@@ -1,3 +1,7 @@
+<c:set var="pageName">
+index.jsp
+</c:set>
+
 <jsp:include page="./header.jsp" />
 <body>
 <jsp:include page="./titlebar.jsp" />
